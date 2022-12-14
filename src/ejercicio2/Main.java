@@ -24,7 +24,6 @@ public class Main {
             indexMaximo += veces; // * Sumamos las veces al máximo
         }
         
-
         // ! Imprimimos la tabla
         System.out.println(Arrays.toString(arraySecuencial));;
     }
