@@ -38,15 +38,31 @@ public class Main {
         // ? Salto de Línea Triple
         System.out.println("\n-------------------\n");
 
+        // ! Imprimimos parte del Mensaje final
+        System.out.print("Los Arrays sin Ordenar son ");
+        
+        // ! Mediante una estructura if-else comparamos los Arrays
+        if (Arrays.equals(primerArray, segundoArray)) {
+            System.out.println("Iguales");
+        } else {
+            System.out.println("Diferentes");
+        }
+
         // ! Ordenamos ambos arrays
         Arrays.sort(primerArray);
         Arrays.sort(segundoArray);
 
+        // ? Salto de Línea
+        System.out.println();
+
+        // ! Imprimimos parte del Mensaje final
+        System.out.print("Los Arrays Ordenados son ");
+
         // ! Mediante una estructura if-else comparamos los Arrays
         if (Arrays.equals(primerArray, segundoArray)) {
-            System.out.println("Los Arrays son Iguales");
+            System.out.println("Iguales");
         } else {
-            System.out.println("Los Arrays son Diferentes");
+            System.out.println("Diferentes");
         }
     }
 }
