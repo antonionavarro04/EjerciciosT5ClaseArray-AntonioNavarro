@@ -25,7 +25,9 @@ public class Main {
         // ! Sacamos los valores comunes entre los dos arrays
         for (short pos = 0; pos < numeroAleatorio.length; pos++) {
             if (Arrays.binarySearch(combinacionGanadora, numeroAleatorio[pos]) >= 0) {
-                System.out.println("El número " + numeroAleatorio[pos] + " está en la combinación ganadora");
+                System.out.println("El número " + numeroAleatorio[pos] + " sí está en la combinación ganadora");
+            } else {
+                System.out.println("El número " + numeroAleatorio[pos] + " no está en la combinación ganadora");
             }
         }
     }
