@@ -6,7 +6,6 @@ import java.util.Locale;
 
 // ? Importamos la Clase Arrays y Collections
 import java.util.Arrays;
-import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,7 +30,7 @@ public class Main {
         Arrays.sort(calificaciones);
 
         // ! Invertimos el orden del Array
-        
+        Methods.invertArray(calificaciones);
 
         // ! Mostramos el Array
         System.out.println("Calificaciones Ordenadas de Mayor a menor:\n" + Arrays.toString(calificaciones));
