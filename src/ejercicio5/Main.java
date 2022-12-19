@@ -25,6 +25,9 @@ public class Main {
 
         // ^ Cerramos el Scanner tras su uso
         read.close();
+        
+        // ? Salto de Línea Triple
+        System.out.println("\n-------------------------------\n");
 
         // ! Ordenamos los valores del Array de forma ascendente
         Arrays.sort(calificaciones);
@@ -33,6 +36,6 @@ public class Main {
         Methods.invertArray(calificaciones);
 
         // ! Mostramos el Array
-        System.out.println("Calificaciones Ordenadas de Mayor a menor:\n" + Arrays.toString(calificaciones));
+        System.out.println("Calificaciones Ordenadas de Mayor a Menor:\n" + Arrays.toString(calificaciones));
     }
 }
